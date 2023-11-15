@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Scrap Smart</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body id="signup-body">
+    <div id="signup-container">
+        <h1>Scrap Smart</h1>
+        <div id="signup-section">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="new-username">New Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <label for="postal-code">Postal Code:</label>
+                <input type="text" id="postal-code" name="postal-code" required>
+
+                <button type="button" onclick="validateSignup()">Sign Up</button>
+            </form>
+        </div>
+
+        <div id="login-link">
+            <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+        </div>
+    </div>
+    <style>
+        body{
+         background: url('https://www.nawpic.com/media/2020/aesthetic-desktop-nawpic-10-scaled.jpg') no-repeat center center fixed;
+         background-size: cover;
+        }
+     </style>
+    <script src="signup.js"></script>
+</body>
+
+</html>
