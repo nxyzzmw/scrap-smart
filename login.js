@@ -10,5 +10,5 @@ function validateLogin() {
 
     // For simplicity, you might want to connect to a backend for real authentication
     // For now, just redirect to the main app page (replace "index.html" with your home page)
-    window.location.href = "index.html";
+    window.location.href = "home.html";
 }
